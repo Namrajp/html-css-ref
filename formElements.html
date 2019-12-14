@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>HTML and CSS Ref</title>
+<link rel="stylesheet" href="style.css">
+
+
+<style type="text/css">
+#form1 {
+  margin-left:72px;
+  padding: 10px;
+  font-family:  Geneva,Verdana, sans-serif;
+  font-size: 16px;
+  width: 400px;
+  background-color: #77e;
+}
+
+legend{
+  color: #00F;
+  padding: 10px 10px;
+  }
+.submitBtn{
+  background-color: #333333;
+  color: #ffffff;
+  border: solid 1px #000000;}
+.days{
+    width: 50%;
+    color: #333333;
+    padding: 5px;}
+</style>
+
+</head>
+
+<body>
+  <header>
+    <a id="logo" href="index.html"><img src="images/logo.gif" width="192" height="46" alt="HTML And CSS Reference"/>
+  </header>
+
+<div class="container">
+  <div class = "nav-bar"> 
+  <h2> Basic Structure</h2>
+    <ul class = "nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="terms.html" tabindex="4">What is HTML</a></li>
+         <li><a href="headingAndParagraphs.html" tabindex="3">Headings and            Paragraphs</a></li>
+      <li><a href="lists.html" tabindex="2">Lists</a></li>
+      <li><a href="links.html" tabindex="1">Links</a></li>
+      <li><a href="quotes.html">Quotes</a></li>
+      <li><a href="course.html">Courses </a></li>
+        <li><a href="references.html">References</a></li>
+
+     </ul>
+  <h2>Style Sheet</h2>
+     <ul class = "nav">
+        <li><a href="stylesheets.html">Stylesheets </a></li>
+      <li><a href="font.html">Font </a></li>
+      <li><a href="span.html">Span </a></li>
+      <li><a href="form.html">Form</a></li>
+      <li><a href="formelements.html">Form Elements</a></li>
+      <li><a href="dreamweaver.html">Dreamweaver Basics</a></li>
+      <li><a href="Box Model.html">Box in Dreamweaver</a></li>
+      <li><a href="table.html">Table Make Up</a></li>
+        
+      </ul>
+  </div>
+
+<section id="main">
+<!-- InstanceBeginEditable name="EditRegion3" -->
+
+<form id="form1" method="post" action="">
+<h1>Form Elements</h1>
+<fieldset>
+  <legend>Input </legend>
+  <p>
+    <label for="txtName">UserName:</label>
+    <input type="text" name="txtName" id=txtName&quot; />
+  </p>
+  <p>
+    <label for="txtPassword">Enter Password:</label>
+    <input type="password" name="password" id="password">
+ <!--   <label for="hfHidden">Enter Password:</label>
+    <input type="hidden" name="hfHidden" id="hfHidden" value="hidden field">-->
+  </p>
+  <fieldset class="days">
+    <legend>Days to come to Tafe</legend>
+    <p>
+      <input type="checkBox" name="chkbox1" id="chkBox">
+      <label for="chkBox">Monday</label>
+      <input type="checkBox" name="chkbox1" id="chkBox" checked>
+      <label for="chkBox">Tuesday</label>
+      <input type="checkBox" name="chkbox1" id="chkBox">
+      <label for="chkBox">Wednesday</label>
+      <input type="checkBox" name="chkbox1" id="chkBox">
+      <label for="chkBox">Thrusday</label>
+      <input type="checkBox" name="chkbox1" id="chkBox">
+      <label for="chkBox">Friday</label>
+    </p>
+  </fieldset>
+  <fieldset>
+  <legend>Group you are enrolled in</legend>
+  <p>
+    <input type="checkBox" id="chkbox" value="Amber">
+    <label for="Amber">Amber</label>
+    <input type="checkBox" id="chkbox" value="Indigo">
+    <label for="Indogo">Indigo</label>
+    <input type="checkBox" id="chkbox" value="Lime">
+    <label for="lime">Lime</label>
+  </p>
+</fieldset>
+
+<p>
+<label for="ddldescribe"> Which best describes you</label>
+<select name="ddldescribe" id="dropdownlist">
+<option>Web designer</option>
+<option>Web developer</option>
+<option>Not Sure</option>
+</select></p>
+
+<label for="txtComment">Please add comments feel free to</label><br>
+<p><textarea name="txtComment" id="txtcomment" cols="45" rows="3">
+</textarea></p>
+</fieldset>
+<p>
+<input type="submit" name="btnSubmit" id="btnSubmit" value="submit" class="submitBtn"></p>
+<p><a href="home.html">Home</a></p>
+
+</section>
+
+</div> <!-- container -->
+<footer>
+<p>Created by webclass &copy;2014</p>
+
+</footer>
+</body>
+</html>

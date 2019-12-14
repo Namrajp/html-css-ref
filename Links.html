@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>HTML and CSS Ref</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<header>
+		<a id="logo" href="index.html"><img src="images/logo.gif" width="192" height="46" alt="HTML And CSS Reference"/>
+	</header>
+
+<div class="container">
+	<div class = "nav-bar">	
+	<h2> Basic Structure</h2>
+		<ul class = "nav">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="terms.html" tabindex="4">What is HTML</a></li>
+		     <li><a href="headingAndParagraphs.html" tabindex="3">Headings and 			      Paragraphs</a></li>
+			<li><a href="lists.html" tabindex="2">Lists</a></li>
+			<li><a href="links.html" tabindex="1">Links</a></li>
+			<li><a href="quotes.html">Quotes</a></li>
+			<li><a href="course.html">Courses </a></li>
+		    <li><a href="references.html">References</a></li>
+
+		 </ul>
+	<h2>Style Sheet</h2>
+		 <ul class = "nav">
+		    <li><a href="stylesheets.html">Stylesheets </a></li>
+			<li><a href="font.html">Font </a></li>
+			<li><a href="span.html">Span </a></li>
+			<li><a href="form.html">Form</a></li>
+			<li><a href="formelements.html">Form Elements</a></li>
+			<li><a href="dreamweaver.html">Dreamweaver Basics</a></li>
+			<li><a href="Box Model.html">Box in Dreamweaver</a></li>
+			<li><a href="table.html">Table Make Up</a></li>
+		    
+		  </ul>
+	</div>
+<section class="main">
+	<h1 id="top">Links</h1>
+<p>
+
+At one character long, this is one of the smallest elements, but a is the lifeblood of the World Wide Web. It's this element that links the billions of web pages together, allowing you to surf from page to page almost endlessly. To say that it's the most important element of all those presented here would not be an exaggeration.
+</p>
+<p>
+
+The a element has a number of special attributes, which are detailed below, but the one that you'll use most of the time—if it's not the only one you'll use—is the href attribute. This attribute indicates the link's destination, be that another web page, a section of the same web page, or some other type of document, such as an image, a spreadsheet, or a PDF document.
+
+</p>
+<p>If no additional styles are applied using CSS, links will appear as follows:</p>
+<ul>
+<li>An unvisited link appears in blue underlined text.</li>
+
+<li>A visited link displays in purple underlined text.</li>
+
+<li>An active link—the link state during the (usually) very brief moment between the link's activation and the loading of the next page—appears in red underlined text.</li>
+</ul>
+
+
+<h2>Attributes</h2>
+
+Some of the attributes for the a tag include:
+
+<h3>access key</h3>
+
+<p>The accesskey attribute allows the user to activate a control on a page using a keyboard shortcut. This may save time for users who would otherwise need to tab through a series of form controls or move the mouse to get to the desired link. The key combination that activates the link to which the accesskey is applied varies depending on the platform and browser combination. For IE/Windows, users press Alt + accesskey, while Firefox/Windows users press Alt + Shift + accesskey; users of most Mac browsers press Ctrl + accesskey; in Opera, pressing Shift + Esc displays a list of links for which accesskey attributes are defined, allowing users to choose the key they want to use.
+</p>
+<h3>href </h3>
+
+<p>The href defines the document to which the link leads. This may be a web page in the same directory, a page somewhere else on the same server, a location within the current page, or a web page—or any another kind of document—stored on another server.</p>
+
+<p>Two dots and a slash "../" equates to the instruction, "move up one directory in the hierarchy."</p>
+
+<p>If you're linking to a document (of whatever type) that's held on another server, you'd express the href using a complete URI. For example http://infotech.hornsby.tafensw.edu.au/</p>
+
+<p>In a link to another section within the same page, the destination is identified in the href attribute by a hash symbol combined with the id attribute of the destination. For example:</p>
+
+<a href="#top">Back to top of page</a>
+
+<p>In addition to links to documents (such as web pages or other document types), the href attribute may specify a different protocol, including: ftp typed as <a href="ftp://someftpserver.com/"> Browse the FTP server</a>, which will open a connection to an FTP server</p>
+
+<p>mailto typed as <a href="mailto:mrwhatever@somedomain.com">Email me!</a>, which will trigger an email client to open and create a new message whose To address matches whatever appears after the mailto: protocol (in this case, an email to mrwhatever@somedomain.com)</p>
+
+<h3>tabindex</h3>
+
+<p>The tabindex is used to define a sequence that users follow when they use the Tab key to navigate through a page. By default, the natural tabbing order will match the source order in the markup.</p>
+	</section>
+	
+</div> 
+	
+		<footer>
+		<p>Created by webclass &copy;2014</p>
+
+		</footer>
+</body>
+</html>
+
+
+

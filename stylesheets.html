@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>HTML and CSS Ref</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<header>
+		<a id="logo" href="index.html"><img src="images/logo.gif" width="192" height="46" alt="HTML And CSS Reference"/>
+	</header>
+
+<div class="container">
+	<div class = "nav-bar">	
+	<h2> Basic Structure</h2>
+		<ul class = "nav">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="terms.html" tabindex="4">What is HTML</a></li>
+		     <li><a href="headingAndParagraphs.html" tabindex="3">Headings and 			      Paragraphs</a></li>
+			<li><a href="lists.html" tabindex="2">Lists</a></li>
+			<li><a href="links.html" tabindex="1">Links</a></li>
+			<li><a href="quotes.html">Quotes</a></li>
+			<li><a href="course.html">Courses </a></li>
+		    <li><a href="references.html">References</a></li>
+
+		 </ul>
+	<h2>Style Sheet</h2>
+		 <ul class = "nav">
+		    <li><a href="stylesheets.html">Stylesheets </a></li>
+			<li><a href="font.html">Font </a></li>
+			<li><a href="span.html">Span </a></li>
+			<li><a href="form.html">Form</a></li>
+			<li><a href="formelements.html">Form Elements</a></li>
+			<li><a href="dreamweaver.html">Dreamweaver Basics</a></li>
+			<li><a href="Box Model.html">Box in Dreamweaver</a></li>
+			<li><a href="table.html">Table Make Up</a></li>
+		    
+		  </ul>
+	</div>
+	<div class="section">
+		<h1>Stylesheets</h1>
+			<h2>What is Stylesheets</h2>
+			<p>CSS stands for cascading Style Sheets;This language allows to change formatting of elements such as text,size,color,bolding, background colors,position on the page and much more. </p>
+
+			<h2>Anatomy of the rule</h2>
+			<p class="code"> p<br />
+			{<br />
+			font-family: Arial,helveatica, sans-seriff;<br />
+			color: blue;
+			font-size=25;<br />
+			}
+			</p>
+			<p>The whole thing is called a rule.p is the selector.Curly braces surround p are  declarations.To apply the CSS we need to link the code in the HTml file.<h2>Linking CSS to a page</h2>
+			<p>&nbsp;</p>
+
+			<p class="code"> &lt;link href=&quot;style.css&quot; rel=&quot;stylesheet&quot;type=&quot;text/css&quot;  /&gt;</p>
+		
+	</div>
+	<div class="section">
+		<h1>Embedded Style </h1>
+		<p>Embedded style sheets allows you  to add at start of <br>webpage a section that sets out all styling to be used in the page</p>	
+		<p> All paragraphs on this page displayed in blue Aerial</p>
+	</div>
+	<div class="section">
+		<h1 style="color:red;">Inline Style</h1>
+
+		<p>The style attribute is added inside h1 tag to give heading color
+		<em>it contains one or more declarations</em> A declaration is made up of two parts.</p>
+
+		<ul>
+		<li> a property and </li>
+		<li>its value </li>
+		</ul>
+		<p>In our heading example <span style="font-family: 'Courier New', Courier, monospace;
+		 color: red;">&lt;h1 style="color:red;"&gt;inline Style&lt;/h1&gt;</span> the <em> declaration</em>
+		is color:red(color is the property and red is the value).
+		A span tag allows you to highlight a section to which you want to apply a style to. </p>
+	</div>
+
+	
+<span class = "clear"></span>
+	</div>
+
+		<footer>
+		<p>Created by webclass &copy;2014</p>
+
+		</footer>
+</body>
+</html>
+
+
+

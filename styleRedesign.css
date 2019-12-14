@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: Aerial,verdana,helvetica,sans-seriff;
+	font-size:12px;}
+
+
+
+header{
+	border-bottom: 3px #0C0 solid;
+	padding: 10px;}
+nav{
+	float: left;
+	top: 50px;
+	background-color:#53B7E8;
+	background-image: url(images/navImage.gif);
+	background-repeat: no-repeat;
+	width: 200px;
+	margin-top: 15px;
+	margin-left: 7px;
+	margin-right: 10px;
+}
+
+.navigationList{
+	list-style-type: none;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+	margin: 0px;
+	
+	}
+	
+.navigationList li a
+{
+	color: #006;
+	}
+	
+h1{
+	color: #002C47;
+	font-size: 150%;
+	padding-top: 10px;
+	margin: 2px;
+	font-weight: normal;}
+	
+h2
+{	
+	color: #c64A67;
+	font-size: 140%;
+	padding-top: 10px;
+	margin: 2px;
+	font-weight: normal;
+}
+#main
+{
+	margin-left: 230px;
+	
+}
+#arrow
+{
+	float:left;
+	margin-right: 20px;
+}
+#pencils
+{
+	float: right;
+	margin-left: 20px;
+	margin-top: 15px;
+	margin-right: 10px;
+}
+.notice
+{
+	color: #3F6074;
+	padding-top: 5px;
+}
+
+#ref li a{
+	color: #006;
+	}
+ul .ref li a hover,#ref li a active{
+	color: #F90;
+	}						
+footer
+{
+	clear: both;
+	background-color: #C74A68;
+	text-align: center;
+	color: #FFF;
+	padding: 1px;
+}
